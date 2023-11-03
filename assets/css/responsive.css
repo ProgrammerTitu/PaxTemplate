@@ -1,0 +1,42 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Responsiv CSS Start Inportent */
+@media (max-width: 575.98px) {
+  .right_arrow,
+  .left_arrow {
+    margin: 0 -35px;
+    padding: 150px 0px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .right_arrow,
+  .left_arrow {
+    padding: 150px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .right_arrow,
+  .left_arrow {
+    padding: 100px 0px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .right_arrow,
+  .left_arrow {
+    padding: 20px 0px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .right_arrow,
+  .left_arrow {
+    padding: 10px 0px;
+  }
+}
+/* Responsiv CSS End Inportent */
+
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */

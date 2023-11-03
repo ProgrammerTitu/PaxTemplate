@@ -1,0 +1,323 @@
+/* ================ Designed by Programmer Titu ================= */
+
+/* Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+/* Common CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header Part Start */
+.hero_con {
+  border-bottom: 1px solid #e3e5e9;
+  padding: 15px 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #5d6981;
+  font-size: 20px;
+  padding: 8px 20px;
+  margin: 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  border: 1px solid #9fabb9;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.menu_icon a {
+  margin: 10px;
+  padding: 8px;
+  font-size: 18px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  border: 1px solid;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+}
+.facebook a {
+  color: #3c5a99;
+}
+.facebook a:hover {
+  color: #fff;
+  background: #3c5a99;
+  transition: 0.3s;
+}
+.twitter a {
+  color: #28aae1;
+}
+.twitter a:hover {
+  color: #fff;
+  background: #28aae1;
+  transition: 0.3s;
+}
+
+/* Hero Area Start */
+.hero_area {
+  background: rgba(0, 0, 0, .04);
+}
+.hero_head {
+  padding: 120px 0 0;
+}
+.hero_head h2 {
+  font-size: 72px;
+  color: #0149a1;
+  font-weight: 700;
+}
+.hero_head h4 {
+  font-size: 36px;
+  color: #5d6981;
+  font-weight: 300;
+}
+.hero_button {
+  padding: 100px 0;
+}
+.hero_btn {
+  height: 65px;
+  width: 240px;
+  background: #ff2d55;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_btn a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.hero_btn:hover  {
+  background: #5d6981;
+  transition: 0.3s;
+}
+.hero_img img {
+  height: 560px;
+  width: 1140px;
+}
+/* Hero Area End */
+
+/* Header Part End */
+
+/* Service Part Start */
+.service_part {
+  padding: 30px 0 60px;
+  background: rgba(0, 0, 0, .04);
+}
+.service_icon img {
+  padding: 20px 0;
+}
+.service_head h5 {
+  font-size: 25px;
+  color: #5d6981;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.service_head p {
+  font-size: 18px;
+  color: #7c8ca0;
+  font-weight: 300;
+}
+/* Service Part End */
+
+/* Creativity Part Start */
+.creativ_part {
+  background: url(../img/creativity.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.creativ_button {
+  padding: 300px 0 150px;
+}
+.creativ_btn {
+  height: 65px;
+  width: 240px;
+  background: #0149a1;
+  border-radius: 30px;
+  box-shadow: 10px 20px 10px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creativ_btn a {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+.creativ_btn:hover  {
+  background: #5d6981;
+  transition: 0.3s;
+}
+/* Creativity Part End */
+
+/* ================ Developed by Programmer Titu With Titu Mollick =================== */
+
+/* We Work Part Start */
+.work_part {
+  padding: 120px 0;
+  background: #0149a1;
+}
+.work_head h2 {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 700;
+}
+.work_head h4 {
+  font-size: 36px;
+  color: #5483bb;
+  font-weight: 300;
+  padding: 0 0 90px;
+}
+.work_text p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+}
+.work_button {
+  padding: 70px 0 0;
+}
+.work_btn {
+  height: 65px;
+  width: 240px;
+  background: #fff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work_btn a {
+  font-size: 18px;
+  color: #0149a1;
+  font-weight: 700;
+  text-decoration: none;
+}
+.work_btn:hover {
+  background: #5d6981;
+  transition: 0.3s;
+}
+/* We Work Part End */
+
+/* Opinion Part Start */
+.opinion_part {
+  padding: 50px 0;
+}
+.opinion_img img {
+  padding: 30px 0;
+}
+.opinion_text h6 {
+  font-size: 24px;
+  color: #7c8ca0;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 180px;
+}
+.opinion_text p {
+  font-size: 18px;
+  color: #7c8ca0;
+  margin: 20px 150px;
+}
+.left_arrow a {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 1px solid #e8ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.right_arrow a {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #e8ecef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.left_arrow i,
+.right_arrow i {
+  font-size: 40px;
+  color: #c1c9d2;
+}
+/* Opinion Part End */
+
+/* Team Part Start */
+.team_part {
+  padding: 80px 0;
+  background: #edeff1;
+}
+.team_head h2 {
+  font-size: 72px;
+  color: #0149a1;
+  font-weight: 700;
+}
+.team_head h4 {
+  font-size: 36px;
+  color: #7c8ca0;
+  font-weight: 300;
+}
+.team_con img {
+  padding: 30px 0;
+}
+.team_img_head h5 {
+  font-size: 25px;
+  color: #5d6981;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.team_img_head p {
+  font-size: 18px;
+  color: #7c8ca0;
+  font-weight: 300;
+}
+/* Team Part End */
+
+/* Footer Part Start */
+.footer_part {
+  padding: 80px 0;
+  background: #0149a1;
+}
+.footer_con {
+  padding-bottom: 100px;
+}
+.footer_text p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 2rem;
+}
+.footer_text a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 2rem;
+  text-decoration: none;
+}
+.footer_text a:hover {
+  color: #5D6981;
+  transition: 0.3s;
+}
+.copyright_area p {
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.symu {
+  font-weight: 700;
+}
+.symu:hover {
+  color: #ff2d55;
+  transition: 0.3s;
+}
+/* Footer Part End */
+
+/* ================ Developed by 💖 Programmer Titu With Titu Mollick =================== */
